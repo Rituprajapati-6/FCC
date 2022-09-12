@@ -1,0 +1,339 @@
+<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+
+<nav id="navbar">
+    <div class="container">
+    <div class="nav-content">
+      <div class="logo">
+        <img src="https://lh3.googleusercontent.com/ogw/ADGmqu-7R8IFn_SDPXjTZeEJ_yBUZi5DjHxlajkGZcBm=s120-c-mo" alt="Dwinatech logo" />
+      </div>
+      <ul>
+        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</nav>
+
+<section id="welcome-section">
+    <div class="container">
+      <h1>You are welcome to Dwinatech channel</h1>
+  </div>
+</section>
+
+<section id="projects">
+    <div class="container">
+      <h2 class="project-tile">These are some of my works</h2>
+      <div class="cards">
+         <a class="card" href="https://codepen.io/dwinatech/full/abmzwpq" target="_blank">
+          <img 
+               alt="Survey form project"
+               src="https://github.com/DwinaTech/public-images/blob/main/survey-form.png?raw=true" />
+          <figcaption>Survey form</figcaption>
+        </a>
+        <a class="card" href="https://codepen.io/dwinatech/full/zYKYPpL" target="_blank">
+        <img 
+             alt="Tribute page project"
+             src="https://github.com/DwinaTech/public-images/blob/main/tribute-page.png?raw=true"  />
+        <figcaption>Tribute page</figcaption>
+      </a>
+
+      <a class="card" href="https://codepen.io/dwinatech/full/NWRPOdE" target="_blank">
+        <img 
+             alt="Techincal documentation project"
+             src="https://github.com/DwinaTech/public-images/blob/main/techincal-doc.png?raw=true" />
+        <figcaption>Techincal documentation</figcaption>
+      </a>
+
+      <a class="card" href="https://codepen.io/dwinatech/full/rNMaWbj" target="_blank">
+        <img 
+             alt="Product landing project"
+             src="https://github.com/DwinaTech/public-images/blob/main/product-landing-page.png?raw=true" />
+        <figcaption>Product landing</figcaption>
+      </a>
+
+      <a class="card" href="https://www.dwinatech.com/" target="_blank">
+        <img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/29136700_2025055727743161_5799789781999157248_o.jpg?_nc_cat=105&ccb=2&_nc_sid=6e5ad9&_nc_ohc=GJE7zBIvX8AAX_dYlyE&_nc_ht=scontent-lht6-1.xx&oh=77702777d098918a18345c5f47b097af&oe=5FEEBC94" alt="DwinaTech portfolio" />
+        <figcaption>DwinaTech portfolio</figcaption>
+      </a>
+      </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2 class="project-tile">Let us get in touch</h2>
+    <p>You can reach me through flowing links<p>
+    <ul>
+      <li><a id="profile-link" target="_blank" href="https://github.com/dwinatech/"><i class="fab fa-github"></i> Github</a></li>
+      <li><a target="_blank" href="https://www.facebook.com/DwinaTech/"><i class="fab fa-facebook"></i> Facebook</a></li>
+      <li><a target="_blank" href="https://www.dwinatech.com/"><i class="fas fa-code"></i> Dwinatech</a></li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="logo">
+        <img src="https://lh3.googleusercontent.com/ogw/ADGmqu-7R8IFn_SDPXjTZeEJ_yBUZi5DjHxlajkGZcBm=s120-c-mo" alt="Dwinatech logo" />
+      </div>
+      <p>All &copy; copy rights are reserved to Dwinatech</p>
+    </div>
+  </div>
+</footer>
+
+html {
+  scroll-behavior: smooth
+}
+
+body {
+  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b6221f28-67ed-43d5-8500-82e620bc77d1/d2s3qw9-a868b371-d50a-4552-a714-c3d4a79ba6a5.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYjYyMjFmMjgtNjdlZC00M2Q1LTg1MDAtODJlNjIwYmM3N2QxXC9kMnMzcXc5LWE4NjhiMzcxLWQ1MGEtNDU1Mi1hNzE0LWMzZDRhNzliYTZhNS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.jpCjj0DFG90dTdxh1DgeWOuuIsBpoV_poU2UJaf7x1g');
+  background-size: cover;
+  background-repeat: no-repeat;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar { /* Chrome, Safari, Opera */
+  display: none;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+/*============= Header ===============*/
+#navbar {
+    width: 100%;
+    background-color: #be3144;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  border-bottom: 2px solid #000;
+      z-index: 5;
+}
+
+.nav-content {
+    display: flex;
+    width: 100%;
+  align-items: center;
+}
+
+.nav-content .logo{
+    display: flex;
+    width: 15%;
+}
+  
+}
+.nav-content .logo img{
+    width: 100%;
+}
+
+.nav-content ul{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0;
+    list-style: none;
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-content ul li{
+    display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-content ul li:last-child{
+  margin-right: 0;
+}
+
+.nav-content ul li a{
+    text-decoration: none;
+  color: #ffffff;
+  transition: all .4s ease-in-out;
+}
+
+.nav-content ul li a:hover {
+  color: #000;
+}
+
+/*============= Welcoming ===============*/
+#welcome-section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  color: #ffffff;
+   transition: all .5s ease-in-out;
+}
+
+#welcome-section:hover{
+  transform: scale(1.5);
+}
+
+/*============= projects ===============*/
+#projects {
+  background-color: #fff;
+  padding: 20px 0;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+}
+
+#projects .project-tile {
+  padding-bottom: 30px;
+  padding-top: 73px;
+}
+
+#projects .cards {
+  display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+#projects .cards .card{
+  display: block;
+  width: 100%;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+#projects .card:hover{
+  transform: rotate3d(0, 1, .5, 1turn);
+    position: relative;
+    z-index: 10;
+}
+
+#projects .cards .card img{
+  width: 100%;
+  max-height: 300px;
+  height: 100%;
+  border-radius: 4px;
+}
+
+#projects .cards .card figcaption{
+     position: absolute;
+    z-index: 2;
+    color: #fff;
+    font-size: 20px;
+    bottom: 0;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(0,0,0,.8);
+}
+
+
+/*============= Contact ===============*/
+#contact {
+  color: #fff;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  text-align: center;
+  transition: all .5s ease-in-out;
+}
+
+#contact:hover{
+  transform: scale(1.5);
+}
+
+#contact h2{
+ margin-bottom: 0
+}
+
+
+#contact ul{
+    padding: 0;
+    font-size: 30px;
+    list-style: none;
+    width: 100%;
+}
+
+#contact ul li{
+  display: inline-block;
+  margin-right: 40px;
+  margin-bottom: 15px;
+  transition: all .5s ease-in-out;
+}
+
+#contact ul li:last-child{
+  margin-right: 0;
+}
+
+#contact ul li:hover{
+  transform: scale(1.5) rotate(-15deg);
+}
+
+#contact ul li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*============= Footer ===============*/
+footer {
+  width: 100%;
+  background-color: #fff;
+  border-top: 2px solid #be3144
+}
+
+footer .footer-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+}
+
+footer .footer-content .logo{
+  min-width: 80px;
+  margin-right: 20px;
+}
+
+footer .footer-content .logo img{
+  width: 100%;
+}
+
+/*============= Media query ===============*/
+@media(min-width: 400px){
+  .nav-content .logo{
+    width: 10%;
+  }
+}
+@media (min-width: 600px){
+  .nav-content ul {
+    font-size: 24px;
+  }
+  .nav-content ul li a{
+      padding: 46px;
+  }
+  .nav-content ul li a:hover {
+    background-color: #000;
+    color: #be3144;
+  }
+  #projects .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 900px){
+  #projects .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
